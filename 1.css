@@ -1,0 +1,127 @@
+body{
+    margin: 10px 400px;
+    /* margin: auto; */
+}
+@media (max-width:1200px){
+    body{
+        margin: 10px 200px;
+    }
+}
+@media (max-width:850px){
+    body{
+        margin: auto;
+    }
+}
+div{
+    border-radius: 10px;
+}
+img{
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.5) ;
+}
+h1{
+    text-align: center;
+    color: rgb(147, 126, 100);
+}
+.info{
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 10px;
+    align-items: center;
+    /* border-bottom: 3px ridge rgb(113, 113, 153); */
+}
+.info div p{
+    margin-left: 20px;
+    text-align: left;
+    margin-top: 30px;
+    /* margin-block-start: auto; */
+}
+img{
+    margin: 10px;
+}
+.links{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+}
+.links p{
+    margin: 10px 10px;
+
+}
+.links a {
+    text-decoration: none;
+}
+.links a:hover{
+    cursor: pointer;
+}
+.btn{
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: rgb(236, 218, 175);
+    border-radius: 10px;
+    font-size: 16px;
+    border: 5px double rgb(223, 185, 98);
+    
+}
+.links div{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.btn a{
+    color: black;
+    font-family: monospace;
+    
+}
+.btn :hover{
+    /* background-color: rgb(233, 196, 110); */
+    transition: all.2s;
+    font-size: 1.5rem;
+}
+.hobby{
+    background-color: rgb(236, 213, 184);
+    padding: 10px;
+    margin: 10px;
+    
+}
+.hobby h4, .con h4{
+    margin: 10px 0 10px 10px;
+}
+.hobby li{
+    display: flex;
+    box-sizing: content-box;
+    list-style: none;
+    /* vertical-align: middle; */
+    border: 2px ridge lightgoldenrodyellow;
+    border-radius: 50%;
+    background-color: rgba(245, 245, 220, 0.25);
+}
+.hobby ol{
+    padding-left: 0;
+}
+.c, .b{
+    width: 95px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.b{
+    margin-left: 100px;
+}
+.con{
+    padding: 10px;
+    margin: 10px;
+    background-color: blanchedalmond;
+    
+
+}
+.con div{
+    margin-bottom: 5px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 45%;
+    margin: 10px 10px;
+}
+
+
